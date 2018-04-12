@@ -14,6 +14,3 @@ command WQ wq
 
 noremap [ 0
 noremap ] $
-
-" execute pathogen#infect()
-" filetype plugin indent on
