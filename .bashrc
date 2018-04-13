@@ -1,7 +1,7 @@
 if [ "$TERM" = xterm ]; then TERM=xterm-256color; fi
 PS1='\[\033[1;92m\]\u@\h\[\033[00m\]:\[\033[1;38;5;12m\]\w\[\033[00m\]\$ '
 
-alias ls='ls -G --color'
+alias ls='ls --color'
 alias grep='grep --color=auto'
 alias rm='rm -r'
 alias ll='ls -lh --color'
