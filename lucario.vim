@@ -13,6 +13,8 @@ hi Search     ctermfg=Black	ctermbg=Yellow	cterm=NONE
 hi Visual	  cterm=reverse
 hi Function	  ctermfg=LightCyan
 hi Cursor     ctermfg=Black	ctermbg=Green	cterm=bold
+hi Pmenu	  ctermfg=Gray ctermbg=8
+hi PmenuSel	  ctermfg=Black	ctermbg=LightGray
 hi Special    ctermfg=LightRed
 hi Comment    ctermfg=243
 hi StatusLine ctermfg=blue	ctermbg=white

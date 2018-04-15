@@ -14,3 +14,19 @@ command WQ wq
 
 noremap [ 0
 noremap ] $
+
+" Vundle Start
+set nocompatible
+filetype off
+
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'ervandew/supertab'
+let g:SuperTabDefaultCompletionType = "<c-n>"
+let g:SuperTabContextDefaultCompletionType = "<c-n>"
+
+call vundle#end()
+filetype plugin indent on
+" Vundle End
