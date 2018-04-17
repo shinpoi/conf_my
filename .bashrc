@@ -1,12 +1,13 @@
 ### Common
 if [ "$TERM" = xterm ]; then TERM=xterm-256color; fi
+alias vi='vim'
 alias rm='rm -r'
 alias grep='grep --color=auto'
 export CLICOLOR=1
 
 ### MacOS
 # export OS="mac" >> ~/.bahs_profile
-if [ $OS == "mac" ]; then
+if [ "$OS" = mac ]; then
 	alias ls='ls -G'
 	alias ll='ls -lhG'
 	alias la='ls -AG'
