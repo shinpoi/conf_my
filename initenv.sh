@@ -20,7 +20,7 @@ if command -v "python3" >/dev/null 2>&1; then
 	else
 		pip3 install virtualenv
 		virtualenv -p python3 ~/pyenv
-		source ~/pyenv/bin/active
+		source ~/pyenv/bin/activate
 		pip install numpy pillow requests beautifulsoup4 lxml opencv-python ipython
 	fi
 else
