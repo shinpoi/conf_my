@@ -24,8 +24,11 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'ervandew/supertab'
+Plugin 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+
 let g:SuperTabDefaultCompletionType = "<c-n>"
 let g:SuperTabContextDefaultCompletionType = "<c-n>"
+let g:SuperTabCrMapping = 1
 
 call vundle#end()
 filetype plugin indent on
