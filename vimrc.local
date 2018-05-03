@@ -12,6 +12,11 @@ command W w
 command Wq wq
 command WQ wq
 
+cabbrev q1 q!
+cabbrev Q1 q!
+cabbrev Q! q!
+cabbrev tb tabedit
+
 noremap [ 0
 noremap ] $
 
@@ -23,6 +28,7 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
+" vim +PluginInstall +qall
 Plugin 'ervandew/supertab'
 Plugin 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 

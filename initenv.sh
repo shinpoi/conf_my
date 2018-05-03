@@ -7,10 +7,8 @@ else
 fi
 
 # rpm
-RM_PKG="vim-common"
-I_PKG="tmux vim-common vim-enhanced wget tree python3-pip python3-dev"
-
-sudo $RPM remove -y $RM_PKG
+# I_PKG="tmux vim-common vim-enhanced wget tree python3-pip python3-dev"
+I_PKG="tmux vim-common wget tree python3-pip python3-dev"
 sudo $RPM install -y $I_PKG
 
 # python3env
