@@ -1,0 +1,21 @@
+{
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/*.class": true,
+    "**/*.bat": true,
+    "**/*.md": true,
+  },
+  "java.errors.incompleteClasspath.severity": "ignore",
+  "explorer.confirmDragAndDrop": false,
+  "git.ignoreMissingGitWarning": true,
+  "terminal.integrated.shell.windows": "C:\\workspace\\init.bat",
+  "vim.otherModesKeyBindingsNonRecursive": [
+    {"before": ["["], "after": ["0"]},
+    {"before": ["]"], "after": ["%"]},
+  ],
+  "explorer.confirmDelete": false
+}
