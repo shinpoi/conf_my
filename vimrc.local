@@ -1,5 +1,6 @@
 colorscheme lucario
 syntax on
+set backspace=indent,eol,start
 set tabstop=4
 set softtabstop=4
 set number
@@ -27,22 +28,13 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
-Plugin 'VundleVim/Vundle.vim'
 " vim +PluginInstall +qall
+Plugin 'VundleVim/Vundle.vim'
 Plugin 'ervandew/supertab'
-Plugin 'vim-scripts/taglist.vim'
-" Plugin 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 
 let g:SuperTabDefaultCompletionType = "<c-n>"
 let g:SuperTabContextDefaultCompletionType = "<c-n>"
 let g:SuperTabCrMapping = 1
-let g:go_fmt_autosave = 0
-
-" taglist
-" let Tlist_Show_One_File=1
-" let Tlist_Exit_OnlyWindow=1
-" let Tlist_Use_Right_Window=1
-" let Tlist_Sort_Type="name"
 
 call vundle#end()
 filetype plugin indent on
