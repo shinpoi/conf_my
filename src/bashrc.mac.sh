@@ -1,5 +1,5 @@
 ## Mac
-export PS1='\e[92m\u@devMac\e[00m:\e[1;38;5;117m\w\e[00m\$ '
+export PS1='\e[1;92m\u@devMac\e[00m:\e[1;38;5;117m\w\e[00m\$ '
 export LSCOLORS='GxexFxfxcxDxdxCxChacad'
 
 alias ls='ls -G'

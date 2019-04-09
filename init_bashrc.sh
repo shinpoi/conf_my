@@ -19,7 +19,7 @@ rm -f $F
 cat "$src/bashrc.common.sh" >> $F
 cat "$src/bashrc.$OS.sh" >> $F
 
-if [ -f "~/.bashrc" ]; then
+if [ -f "$HOME/.bashrc" ]; then
   BF="$HOME/.bashrc";
 else
   BF="$HOME/.bash_profile";
