@@ -1,3 +1,4 @@
+#!/bin/bash
 # git setting: /etc/bash_completion.d/git
 
 git config --global alias.cm 'commit -m'
@@ -14,4 +15,6 @@ git config --global alias.lg 'log --graph --pretty=format:"%Cred%h%Creset -%C(ye
 
 # git config --global user.name "---"
 # git config --global user.email "---"
+
+echo '[ init_git.sh fin ]'
 

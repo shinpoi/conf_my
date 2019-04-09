@@ -31,7 +31,6 @@ call vundle#begin()
 " vim +PluginInstall +qall
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'ervandew/supertab'
-" Plugin 'rust-lang/rust.vim'
 
 let g:SuperTabDefaultCompletionType = "<c-n>"
 let g:SuperTabContextDefaultCompletionType = "<c-n>"
