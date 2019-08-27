@@ -5,6 +5,7 @@ set tabstop=4
 set softtabstop=4
 set number
 set autoindent
+set expandtab
 set hlsearch
 set ignorecase
 
