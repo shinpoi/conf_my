@@ -9,6 +9,7 @@ git config --global alias.ck 'checkout'
 git config --global alias.br 'branch'
 git config --global alias.ri 'rebase -i'
 git config --global alias.pp 'pull up'
+git config --global alias.sync 'pull up master'
 
 git config --global color.ui true
 
